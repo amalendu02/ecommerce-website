@@ -1,16 +1,95 @@
-# React + Vite
+# Ecommerce React Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a fully functional **Ecommerce Web Application** built using **React + Vite**.  
+It includes product listing, cart management, dynamic pricing, routing, and clean UI components.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Preview (Localhost)
 
-## React Compiler
+Run the project and view it at:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**http://localhost:5173/**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- **React.js**
+- **Vite**
+- **Redux Toolkit**
+- **React Router DOM**
+- **LocalStorage**
+- **Custom CSS**
+
+---
+
+## Features
+
+### Product Listing  
+- View all available products  
+- Add items to cart  
+- Responsive UI  
+
+### Cart System  
+- Add / Remove items  
+- Update quantity  
+- Auto-calculated **total price**  
+- Cart persists using localStorage  
+
+### Routing  
+- Home  
+- Products  
+- Cart Page  
+
+---
+
+## Folder Structure
+
+```
+ecommerce-react/
+│── src/
+│   ├── components/
+│   ├── features/
+│   │   └── ShopCart/
+│   │       └── cartSlice.js
+│   ├── pages/
+│   ├── App.jsx
+│   ├── main.jsx
+│── public/
+│── package.json
+│── README.md
+```
+
+---
+
+## Installation & Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/amalendu02/ecommerce-website.git
+
+# Move into folder
+cd ecommerce-react
+
+# Install dependencies
+npm install
+
+# Start dev server
+npm run dev
+```
+
+Your app will start at:  
+ **http://localhost:5173/**
+
+---
+
+## Contributing
+
+Feel free to submit issues or PRs.
+
+---
+
+## License
+
+Licensed under the **MIT License**.
